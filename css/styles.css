@@ -1128,9 +1128,10 @@ body {
   background: rgba(46, 47, 66, 0.4);
 }
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.5);
+.backdrop.is-hidden {
   opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .modal {
@@ -1434,7 +1435,7 @@ body {
   }
 }
 
-.footer-prom> .logo-web {
+.footer-prom > .logo-web {
   display: block;
 }
 
