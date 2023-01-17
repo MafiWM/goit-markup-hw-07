@@ -1124,8 +1124,11 @@ body {
 
 .filter-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+  row-gap: 16px;
+  column-gap: 24px;
+  
 }
 
 .dnon {
